@@ -1,0 +1,134 @@
+.first-part{
+    background-color:bisque;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 10%;
+    width: 100%;
+}
+a{
+    color: black;
+}
+a:hover{
+    color:rgb(239, 183, 115)
+}
+.text-links-first{
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+.main-part{
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    height: 80%;
+    width: 100%;
+}
+.images{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.galleryimages{
+    background-color: black;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    max-width: 100%;
+    width: 80%;
+
+
+}
+.last-part{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    height: 10%;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.text-links-last{
+    display: flex;
+    list-style: none;
+    margin-top: 50px;
+}
+h1{ color: orange;
+display: flex;
+justify-content: center;
+font-family: 'Inria Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 72px;
+text-align: center;
+}
+
+p{ color: orange;
+font-family: 'Inria Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+
+color: #E9D4A9;
+
+}
+.p1{
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.skull{
+    display: flex;
+    justify-items: flex-start;
+    justify-content: flex-start;
+    width: 10%;
+    margin-left: 40px;
+}
+.skull-bottom{
+ display: flex;
+ margin-left: 20px;
+}
+.buttons{
+background-color: bisque;
+color: black;
+border-color: bisque;
+border-top: 0px;
+border-bottom: 0px;
+border-left: 0px;
+border-right: 0px;
+}
+.buttons:hover{
+    color: chocolate;
+}
+.sub-div{
+    display: flex;
+    flex-direction: column;
+}
+.div-text-button{
+    display: flex;
+}
+.end-button:hover{
+    color: chocolate;
+}
+.text-box{
+height: 25px;
+margin-right: 3px;
+width: 300px;
+}
+.end-button{
+height: 30px;
+width: 40%;
+margin-right: 10px;
+background-color: brown;
+}
+.sub-text{
+ color: black;
+}
