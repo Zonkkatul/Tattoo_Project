@@ -1,0 +1,255 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    background-image: url('Hero-section.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    height: 100vh; 
+    margin: 0; 
+    color: #d4c098; 
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d4c098;
+    padding: 20px 0;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero-section {
+    background: url('Hero-section.png') no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+}
+
+.hero-btn {
+    background-color: #b83434;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.elevated-tattoos {
+    background-color: #d4c098;
+    padding: 50px 0;
+}
+
+.elevated-tattoos .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-content {
+    width: 60%;
+}
+
+.text-content h2 {
+    margin-bottom: 20px;
+}
+
+.learn-more-btn {
+    background-color: #b83434;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.image-content img {
+    width: 100%;
+    height: auto;
+}
+
+.special-offers {
+    background-color: #421010;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.offer-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+
+.offer-icon {
+    width: 50px; 
+    height: auto;
+    margin-bottom: 10px; 
+}
+
+.offer-item {
+    width: 20%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.book-now-btn {
+    background-color: #b83434;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #d4c098;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+
+
+
+.site-footer {
+    background-color: #3b0d0c; 
+    color: #d4c098; 
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    width: 150px; 
+}
+
+
+.footer-nav {
+    margin: 0 30px;
+}
+
+.footer-nav h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-nav ul li {
+    margin-bottom: 10px;
+}
+
+.footer-nav ul li a {
+    color: #d4c098;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-nav ul li a:hover {
+    color: #ffffff; 
+}
+
+
+.footer-subscribe {
+    max-width: 300px;
+    margin: 20px;
+}
+
+.footer-subscribe h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-form input,
+.subscribe-form textarea {
+    background-color: #2c0908; 
+    border: 1px solid #d4c098;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #d4c098;
+    border-radius: 5px;
+}
+
+.subscribe-form input::placeholder,
+.subscribe-form textarea::placeholder {
+    color: #d4c098;
+}
+
+.subscribe-form input:focus,
+.subscribe-form textarea:focus {
+    outline: none;
+    border-color: #ffffff;
+}
+
+.subscribe-form button {
+    background-color: #d4c098;
+    color: #3b0d0c;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.9s ease;
+}
+
+.subscribe-form button:hover {
+    background-color: green;
+}
+
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid blue; 
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+
+
+
